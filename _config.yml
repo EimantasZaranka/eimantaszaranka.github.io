@@ -54,11 +54,19 @@ paginate_path: "/blog/page:num/"
 
 permalink: /:slug/
 
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalink: "/archive/:slug/"
+
+
 # Build settings
 # theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-archives
 
 # include: [_categories]
 
