@@ -7,3 +7,9 @@
 #
 layout: home
 ---
+
+# **Welcome To Eimantas Zaranka Blog.**
+
+Am a university student and I have interest in **Machine Learning** and **Data Science**. The main purpose of this blog is to **document my progress**, **learn by explaining** and **write about academic papers I have read**.
+
+Also the hidden motivation behind it was to keep myself accountable to push forward while learning new things and improve my written skills.

@@ -21,9 +21,9 @@
 title: EimantasZaranka
 email: zaranka.e@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Am a university student and I have interest in Machine Learning and 
+  Data Science. The main purpose of this blog is to document my progress, 
+  learn by explaining and write about academic papers I have read.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://eimantaszaranka.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -59,12 +59,21 @@ utterance:
 paginate: 10
 paginate_path: "/blog/page:num/"
 
+permalink: /:slug/
+
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
 
 # Build settings
 # theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-archives
 
 
 # Exclude from processing.
