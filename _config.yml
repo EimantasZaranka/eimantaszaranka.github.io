@@ -51,7 +51,7 @@ gittalk:
   admin: EimantasZaranka
 
 utterance:
-  repo: blog-comments
+  repo: eimantaszaranka/blog-comments
   issue-term: title
   theme: github-light
   label: blog-comments
