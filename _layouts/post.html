@@ -11,7 +11,7 @@ layout: default
         {{ page.date | date: date_format }}
       </time> | <
       {%- for category in page.categories -%}
-        <a href="/category/{{category}}/">{{category}}</a>&nbsp;,
+        <a class="linkas" href="/category/{{category}}/">{{category}}</a>&nbsp;,
       {%- endfor -%}
       >
       {%- if page.modified_date -%}
