@@ -44,8 +44,8 @@ header_pages:
  - blog/index.html
 
 gittalk:
-  clientID: dd56179ea6afdde5d5a9
-  clientSecret: 9cd8d1ffb064c78046c01f3921cb7141bd68b37d
+  clientID: 
+  clientSecret: 
   repository: EimantasZaranka.github.io
   owner: EimantasZaranka
   admin: EimantasZaranka
