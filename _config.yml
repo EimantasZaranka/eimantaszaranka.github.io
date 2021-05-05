@@ -60,7 +60,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-include: [_categories]
+# include: [_categories]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
