@@ -43,13 +43,6 @@ header_pages:
  - about.markdown
  - blog/index.html
 
-gittalk:
-  clientID: 
-  clientSecret: 
-  repository: EimantasZaranka.github.io
-  owner: EimantasZaranka
-  admin: EimantasZaranka
-
 utterance:
   repo: eimantaszaranka/blog-comments
   issue-term: title
