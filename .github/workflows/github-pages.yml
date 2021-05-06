@@ -17,3 +17,5 @@ jobs:
           fetch-depth: 1
       - name: 🧪 Build and deploy
         uses: victoriadrake/jekyll-cd@master
+        with:
+          cname: eimantaszaranka.com
