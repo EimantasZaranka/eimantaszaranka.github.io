@@ -49,8 +49,17 @@ utterance:
   theme: github-light
   label: blog-comments
 
-paginate: 10
-paginate_path: "/blog/page:num/"
+# paginate: 5
+# paginate_path: "/blog/page:num/"
+
+# pagination:
+#   enabled: true
+#   per_page: 3
+#   permalink: '/page/:num/'
+#   title: ':title - page :num of :max'
+#   limit: 0
+#   sort_field: 'date'
+#   sort_reverse: true
 
 permalink: /:slug/
 
@@ -67,6 +76,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-paginate-v2
 
 # include: [_categories]
 
