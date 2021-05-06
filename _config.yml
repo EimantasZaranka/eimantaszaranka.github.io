@@ -60,7 +60,7 @@ utterance:
 #   limit: 0
 #   sort_field: 'date'
 #   sort_reverse: true
-
+keep_files: [CNAME]
 permalink: /:slug/
 
 jekyll-archives:
