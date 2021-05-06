@@ -78,7 +78,7 @@ plugins:
   - jekyll-archives
   - jekyll-paginate-v2
 
- include: [CNAME]
+ #include: [CNAME]
 
 # Exclude from processing.
 # The following items will not be processed, by default.

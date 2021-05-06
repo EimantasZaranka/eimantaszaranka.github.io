@@ -1,4 +1,4 @@
-name: Build and deploy Jekyll site to GitHub Pages
+name: Jekyll Deploy
 
 on:
   push:
@@ -6,16 +6,22 @@ on:
       - master
 
 jobs:
-  build:
-
+  build_and_deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: 🛎 Check out master
-        uses: actions/checkout@master
+      - name: GitHub Checkout
+        uses: actions/checkout@v1
+      - name: Bundler Cache
+        uses: actions/cache@v1
         with:
-          fetch-depth: 1
-      - name: 🧪 Build and deploy
-        uses: victoriadrake/jekyll-cd@master
-        with:
-          cname: eimantaszaranka.com
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - name: Build & Deploy to GitHub Pages
+        uses: joshlarsen/jekyll4-deploy-gh-pages@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUBTOKEN }}
+          GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
+          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
+          JEKYLL_DESTINATION: docs
