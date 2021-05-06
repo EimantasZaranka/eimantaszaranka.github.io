@@ -17,3 +17,9 @@ jobs:
           fetch-depth: 1
       - name: 🧪 Build and deploy
         uses: victoriadrake/jekyll-cd@master
+        with:
+          branch: master
+          folder: docs
+          clean: true
+          clean-exclude: |
+            CNAME
