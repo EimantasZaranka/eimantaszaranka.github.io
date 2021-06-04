@@ -18,9 +18,9 @@ jobs:
           ${{ runner.os }}-gems-
 
     # Specify the target branch (optional)
-    - uses: helaili/jekyll-action@v2
+    - uses: jeffreytse/jekyll-deploy-action@v0.2.1
       with:
         token: ${{ secrets.GITHUBTOKEN }}
-        target_branch: 'gh-pages'
-        keep_history: true
+        branch: 'gh-pages'
+        cname: 'eimantaszaranka.com'
         
