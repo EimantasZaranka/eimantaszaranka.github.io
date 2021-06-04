@@ -18,10 +18,8 @@ jobs:
           ${{ runner.os }}-gems-
 
     # Specify the target branch (optional)
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+    - uses: helaili/jekyll-action@v2
       with:
-        github_token: ${{ secrets.GITHUBTOKEN }}
-        publish_dir: ./public
-        cname: eimantaszaranka.com
-        enable_jekyll: true
+        token: ${{ secrets.GITHUBTOKEN }}
+        target_path: /doc
+        
