@@ -18,8 +18,10 @@ jobs:
           ${{ runner.os }}-gems-
 
     # Specify the target branch (optional)
-    - uses: peaceiris/actions-gh-pages@v3
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUBTOKEN }}
         publish_branch: 'gh-pages'
         cname: eimantaszaranka.com
+        enable_jekyll: true
