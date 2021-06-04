@@ -4,7 +4,7 @@ type: archive
 ---
 
 <div class="blog list">
-    <h1 class="homepage-header">Category: <small>{{ page.title }}</small></h1>
+    <h1 class="homepage-header">Category: <span class="cat-name">{{ page.title }}<span></h1>
 
     <ul class="post-list">
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -16,6 +16,12 @@ type: archive
             {{ post.title | escape }}
           </a>
         </h3>
+        {%- if post.thumbnail -%}
+        <img class="thumbnail" src="{{post.thumbnail}}" alt="{{post.thumb_alt}}" />
+        {%- endif -%}
+        {%- if site.how_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
 		</li>
     {% endfor %}
     </ul>

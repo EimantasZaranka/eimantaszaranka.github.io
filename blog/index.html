@@ -26,7 +26,10 @@ title: Blog
             {{ post.title | escape }}
           </a>
         </h3>
-        {%- if site.show_excerpts -%}
+        {%- if post.thumbnail -%}
+        <img class="thumbnail" src="../{{post.thumbnail}}" alt="{{post.thumb_alt}}" />
+        {%- endif -%}
+        {%- if site.how_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
       </li>

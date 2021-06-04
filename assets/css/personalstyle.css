@@ -18,6 +18,7 @@
 
 .linkas{
 	color:#008000 !important;
+	background-color: #e8e8e8;
 }
 
 .post-content a, .latest-post-link, .post-link{
@@ -32,6 +33,11 @@
 	text-align: center;
 }
 
+.cat-name{
+	text-decoration: underline;
+
+}
+
 .site-title{
 	color:#008000 !important;
 	font-weight: bold;
@@ -44,4 +50,10 @@
 
 .pagination, .pagination a{
 	color:#008000 !important;
+}
+
+.thumbnail{
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
 }

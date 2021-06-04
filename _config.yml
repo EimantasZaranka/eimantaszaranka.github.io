@@ -29,7 +29,7 @@ url: "https://eimantaszaranka.com" # the base hostname & protocol for your site,
 
 
 # Site configuration
-how_excerpts: false
+how_excerpts: true
 minima:
   date_format: "%Y %b %-d"
 
