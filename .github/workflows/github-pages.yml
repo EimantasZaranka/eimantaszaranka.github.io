@@ -20,6 +20,6 @@ jobs:
     # Specify the target branch (optional)
     - uses: peaceiris/actions-gh-pages@v3
       with:
-        token: ${{ secrets.GITHUBTOKEN }}
-        target_branch: 'gh-pages'
+        github_token: ${{ secrets.GITHUBTOKEN }}
+        publish_branch: 'gh-pages'
         cname: eimantaszaranka.com
