@@ -4,15 +4,13 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi there! My name is Eimantas Zaranka ***(surprise, surprise :D)*** and I am ***(or at least I'm working on becoming)*** a machine learning engineer. With this blog I will be writing in various aspects of my journey in machine learning and data science world. I'm not going to be a mentor in any way, shape or form ***(just to be frank from the start)***. This platform is ment to be a place for me to document my progress: personal projects, progress in courses I am enrolled in or some conspects of academic papers i have read. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Currently I am an ***"Informatics Systems"*** student who chose ***"The Artificial Intelligence Systems Specialization"*** at Vytautas Magnus University in Kaunas, Lithuania. 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+## Goals to achieve in 2021:
+- [ ] Write 20 blog posts
+- [ ] Complete two personal projects
+- [ ] Learn Tensorflow fundamentals
+- [ ] Learn Power BI
+- [ ] Participate in two Hackatons

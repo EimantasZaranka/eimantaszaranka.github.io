@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "When Professionals Run Into Problems With Machine Learning, This Is What They Do"
-date:   2021-05-01 10:59:23 +0300
-categories: jekyll update
+title:  "5 Killer Quora Answers on Machine Learning"
+date:   2021-05-02 10:59:23 +0300
+categories: jekyll Update testing
+thumbnail: "/thumbnails/first.png"
+thumb_alt: "Thumbnail of the first post"
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
