@@ -39,6 +39,8 @@ minima:
     instagram: zarankaeimantas
     linkedin: eimantaszaranka
 
+google_analytics: G-6CJGZZ3GTB
+
 header_pages:
  - about.markdown
  - blog/index.html
