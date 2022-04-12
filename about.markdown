@@ -41,11 +41,3 @@ Currently I am an ***"Informatics Systems"*** student who chose ***"The Artifici
         <p>FastAPI</p>
     </div>
 </div>
-
-## Goals to achieve in 2021:
-<div class="goals" markdown="1">
-- [ ] Write 5 blog posts
-- [ ] Complete two personal projects
-- [ ] Remember Tensorflow
-- [ ] Learn Google Data Studio, PySpark
-</div>
